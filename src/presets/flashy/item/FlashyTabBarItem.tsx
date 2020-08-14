@@ -161,11 +161,11 @@ const FlashyTabBarItemComponent = ({
             ],
             extrapolate: Extrapolate.CLAMP,
           }),
-          rotate: interpolate(animatedFocus, {
-            inputRange: [0, 0.5],
-            outputRange: [toRad(0), toRad(isRTL ? -15 : 15)],
-            extrapolate: Extrapolate.CLAMP,
-          }),
+          // rotate: interpolate(animatedFocus, {
+          //   inputRange: [0, 0.5],
+          //   outputRange: [toRad(0), toRad(isRTL ? -15 : 15)],
+          //   extrapolate: Extrapolate.CLAMP,
+          // }),
         }
       ) as Animated.AnimatedTransform,
     },
