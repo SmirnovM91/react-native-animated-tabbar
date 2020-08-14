@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.ts"],"names":["useTabBarVisibility"],"mappings":"AAAA,SAASA,mBAAT,QAAoC,uBAApC","sourcesContent":["export { useTabBarVisibility } from './useTabBarVisibility';\n"]}
